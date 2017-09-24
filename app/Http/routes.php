@@ -5,6 +5,7 @@ Route::model('article', 'App\Article');
 Route::model('articlecategory', 'App\ArticleCategory');
 Route::model('language', 'App\Language');
 Route::model('photoalbum', 'App\PhotoAlbum');
+Route::model('patientdetails', 'App\Patientdetail');
 Route::model('photo', 'App\Photo');
 Route::model('user', 'App\User');
 Route::pattern('id', '[0-9]+');
@@ -19,6 +20,8 @@ Route::get('articles', 'ArticlesController@index');
 Route::get('article/{slug}', 'ArticlesController@show');
 Route::get('video/{id}', 'VideoController@show');
 Route::get('photo/{id}', 'PhotoController@show');
+Route::get('patientdetails/{patientdetail}', 'PatientdetailController@show');
+Route::get('patientdetails', 'PatientdetailController@index');
 
 Route::controllers([
     'auth' => 'Auth\AuthController',
