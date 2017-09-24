@@ -1,6 +1,8 @@
 # Laravel Framework 5.1  Bootstrap 3 Starter Site
 
-This is  proof of concept app for handling patient visits in blockchain.
+This is  proof of concept app for handling patient interactions in blockchain. This app is based on onpen-source starter app in Laravel. This will receive hashes from providers' interaction with patients and then feed the front-end Care_Pay application.
+
+The customer-facing side repository can be found [here:]https://github.com/zachgoll/care_pay 
 
 ## Starter Site based on on Laravel 5.1 and Boostrap 3
 * [Features](#feature1)
