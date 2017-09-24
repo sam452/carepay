@@ -1,5 +1,7 @@
 # Laravel Framework 5.1  Bootstrap 3 Starter Site
 
+This is  proof of concept app for handling patient visits in blockchain.
+
 ## Starter Site based on on Laravel 5.1 and Boostrap 3
 * [Features](#feature1)
 * [Requirements](#feature2)
