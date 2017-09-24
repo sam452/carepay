@@ -49,6 +49,7 @@ class PatientdetailController extends Controller
                 'COMORBIDIND' => $patient->COMORBIDIND,
                 'LASTMODDATE' => $patient->LASTMODDATE,
                 'GENDER' => $patient->GENDER,
+                'hash' => $patient->hash,
               ];
           }
       }catch(Exception $e){
@@ -118,7 +119,8 @@ class PatientdetailController extends Controller
             'SPL3DEV' => $detail->SPL3DEV,
             'COMORBIDIND' => $detail->COMORBIDIND,
             'LASTMODDATE' => $detail->LASTMODDATE,
-            'GENDER' => $detail->GENDER
+            'GENDER' => $detail->GENDER,
+            'hash' => $detail->hash,
           ]];
       }catch(Exception $e){
           $response = [
